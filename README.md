@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 南风过境
-tagline: 今夕何夕,见此良人
+heroText: 流年以笑掷 未来诚可期
+tagline: 总有一天,你会变得更好！
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
