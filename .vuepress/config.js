@@ -108,8 +108,9 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "LastWhisper", 
     "authorAvatar": "/avatar.jpg", //主页头像
-    // "record": "浙ICP备2020039354号", // 备案号
-    "startYear": "2017"
+    "record": "浙ICP备2020039354号", // 备案号
+    "recordLink": "http://beian.miit.gov.cn/",
+    "startYear": "2019"
   },
 
   // 插件配置
