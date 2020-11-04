@@ -1,7 +1,7 @@
 module.exports = {
   "title": "LastWhisper",
   "description": "Talk is cheap. Show me the code.",
-  "dest": "public", // 打包目录
+  "dest": "dist", // 打包目录
   "head": [
     [
       "link",
