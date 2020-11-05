@@ -16,7 +16,7 @@ module.exports = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
-    ]
+    ],
   ],
   "locales": {
     "/": {
@@ -131,7 +131,7 @@ module.exports = {
     [
       '@vuepress/google-analytics',
       {
-        'ga': 'G-GRTDEV6V05' 
+        ga: 'G-GRTDEV6V05' 
       }
     ]
   ],
