@@ -16,7 +16,7 @@ module.exports = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
-    ],
+    ]
   ],
   "locales": {
     "/": {
@@ -27,6 +27,7 @@ module.exports = {
   // 主题配置
   "theme": "reco",
   "themeConfig": {
+    "noFoundPageByTencent": false,
     "nav": [
       {
         "text": "主页",
