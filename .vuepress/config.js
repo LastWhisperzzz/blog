@@ -46,7 +46,10 @@ module.exports = {
           {
             "text": "2048",
             "link": "http://2048.lastwhisper.net"
-            // "icon": "reco-blog"
+          }, 
+          {
+            "text": "动态简历",
+            "link": "http://resume.lastwhisper.net"
           } 
         ]
       },
