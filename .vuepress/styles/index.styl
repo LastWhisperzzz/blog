@@ -1,3 +1,45 @@
+// 底纹背景
+body
+  background-size 100%
+  background-image url('/star-bg.svg')
+  background-attachment fixed
+  background-repeat no-repeat
+  // background-position 50%
+
+
+// 页面去背景
+.page
+  background transparent
+  .page-title, 
+  .content__default:not(.custom)
+    // max-width 830px !important
+    background-color var(--background-color)
+    box-shadow $boxShadow
+  .page-title
+    position relative
+    margin-bottom 20px
+    background-color transparent
+    box-shadow none
+    z-index 5
+    > h1
+      margin 5px 0
+    > hr
+      display none
+    > div
+      padding 0 10px
+      position initial
+      @media (min-width: 480px)
+        top 34px
+        right 0
+
+// 分页去背景
+.pagation.pagation
+  background transparent !important
+  .pagation-list
+    .jump:not(.bgprimary)
+      background-color var(--background-color);
+
+
 /* veditor输入界面增加背景图 */
 #valine .vwrap .vedit #veditor{
   background: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp)  
@@ -44,5 +86,47 @@
 #valine .vcards .vcard .vh .vcard {
 	border: none;
 	box-shadow: none;
+}
+
+// 时间线样式
+.timeline-wrapper .year {
+  margin: 80px 0px 20px !important;
+  font-size: 27px !important;
+}
+.timeline-wrapper .year-wrapper li {
+    padding: 10px 20px 10px !important;
+    border-bottom: 2px solid #999da06b !important;
+    background: #c1c1e626;
+    border-radius: 5rem;
+    margin: 5px 0px;
+    transition: all .5s;
+}
+.timeline-wrapper .year-wrapper li:hover {
+    transform:  translate(50px,0);
+    transition: all .5s;
+}
+.timeline-wrapper .year-wrapper li .date {
+  width: 43px !important;
+  font-size: 13px !important;
+}
+.timeline-wrapper .year-wrapper li .date:before {
+    top: 22px !important;
+    border: 1px solid !important;
+}
+.timeline-wrapper:after {
+    background: skyblue !important;
+}
+.timeline-wrapper .desc:before, .timeline-wrapper .year:before {
+  background: cadetblue !important;
+}
+
+//标签列表样式
+.abstract-item {
+//   background-color: #F0F8FF !important;  // 爱丽丝蓝
+  transition: all .5s;
+}
+.abstract-item:hover {
+    transform:  scale(1.02);
+    transition: all .5s;
 }
 

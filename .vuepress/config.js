@@ -35,6 +35,22 @@ module.exports = {
         "icon": "reco-home"
       },
       { 
+        "text": "项目",
+        "icon": "reco-api",
+        "items": [
+          {
+            "text": "云音乐",
+            "link": "http://music.lastwhisper.net"
+            // "icon": "reco-blog"
+          },
+          {
+            "text": "2048",
+            "link": "http://2048.lastwhisper.net"
+            // "icon": "reco-blog"
+          } 
+        ]
+      },
+      { 
         "text": "关于我",
         "link": "/about/",
         "icon": "reco-suggestion"
