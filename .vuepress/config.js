@@ -114,7 +114,7 @@ module.exports = {
       "avatar": 'retro', //头像展示方式(''/mp/identicon/monsterid/wavatar/robohash/retro/hide) 官方图形/灰白头像/几何图/小怪物/组合头像/8位像素图/机器人/不显示
       "meta": ['nick','mail','link'], //评论者相关属性
       // "requiredFields": ['nick','mail'], //必填项
-      "placeholder": '来发条评论吧！昵称填写qq可显示qq头像和昵称，填写邮箱可以收到回复哦(●\'◡\'●)' ,
+      "placeholder": '来发条评论吧！(๑\'◡\'๑)' ,
       "pageSize": 10,
       // "visitor": true, //文章访问量统计
       "recordIP": true, // 记录评论者IP
